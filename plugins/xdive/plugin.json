@@ -1,0 +1,33 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "xdive",
+  "version": "1.0.0",
+  "description": "Search the web, read pages as Markdown, map and crawl sites, extract structured data, and research questions with cited sources through XDive's hosted MCP server.",
+  "author": {
+    "name": "XDive",
+    "url": "https://xdive.dev"
+  },
+  "homepage": "https://xdive.dev/docs/mcp",
+  "keywords": ["web search", "scraping", "crawling", "research", "citations", "mcp"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "XDive",
+        "shortDescription": "Web search and cited research",
+        "longDescription": "XDive gives the assistant read-only access to the public web. Search the web or news and get the most relevant passages of each result; read any page as Markdown, with long pages delivered in parts; list a site's URLs or crawl it; extract structured data from up to 10 pages with a prompt or a JSON Schema; and research a question across several sources with every claim cited. You sign in with your XDive account and choose an organization; calls count toward that organization's usage like any API call, and you can revoke access at any time under API Keys, Connected apps. Every tool only reads: XDive never posts, buys, or changes anything on the sites it reads.",
+        "developerName": "XDive",
+        "category": "Productivity",
+        "capabilities": ["Read"],
+        "websiteURL": "https://xdive.dev",
+        "defaultPrompt": [
+          "Research what changed in the latest Python release and cite your sources.",
+          "Search the news from the past week about electric vehicle batteries and summarize it.",
+          "Map docs.python.org and list the pages about asyncio."
+        ],
+        "brandColor": "#7C5CFF",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}

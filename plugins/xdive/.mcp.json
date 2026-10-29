@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "xdive": {
+      "type": "http",
+      "url": "https://xdive.dev/api/mcp"
+    }
+  }
+}

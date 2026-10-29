@@ -1,0 +1,15 @@
+{
+  "name": "xdive-plugins",
+  "description": "XDive: web search, page reading, crawling, extraction and cited research for agents.",
+  "owner": {
+    "name": "XDive",
+    "url": "https://xdive.dev"
+  },
+  "plugins": [
+    {
+      "name": "xdive",
+      "source": "./plugins/xdive",
+      "description": "Search the web, read pages, map and crawl sites, extract data, and research questions with cited sources."
+    }
+  ]
+}

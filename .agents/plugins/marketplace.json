@@ -1,0 +1,20 @@
+{
+  "name": "xdive-plugins",
+  "interface": {
+    "displayName": "XDive"
+  },
+  "plugins": [
+    {
+      "name": "xdive",
+      "source": {
+        "source": "local",
+        "path": "./plugins/xdive"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
