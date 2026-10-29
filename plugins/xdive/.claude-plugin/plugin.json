@@ -1,14 +1,24 @@
 {
   "name": "xdive",
   "displayName": "XDive",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Search the web, read pages as Markdown, map and crawl sites, extract structured data, and research questions with cited sources through XDive's hosted MCP server.",
   "author": {
     "name": "XDive",
     "url": "https://xdive.dev"
   },
   "homepage": "https://xdive.dev/docs/mcp",
-  "keywords": ["web search", "scraping", "crawling", "research", "citations", "mcp"],
+  "keywords": [
+    "web search",
+    "scraping",
+    "crawling",
+    "research",
+    "citations",
+    "mcp"
+  ],
   "icon": "./assets/logo.png",
-  "documentationUrl": "https://xdive.dev/docs/mcp"
+  "documentationUrl": "https://xdive.dev/docs/mcp",
+  "supportUrl": "https://xdive.dev/support",
+  "privacyPolicyUrl": "https://xdive.dev/privacy",
+  "termsOfServiceUrl": "https://xdive.dev/terms"
 }
